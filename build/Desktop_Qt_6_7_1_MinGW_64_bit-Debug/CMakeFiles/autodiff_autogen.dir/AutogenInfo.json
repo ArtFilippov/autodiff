@@ -326,9 +326,63 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/User/Desktop/autodiff/controller.h",
+			"MU",
+			"EWIEGA46WW/moc_controller.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/differentiable.h",
+			"MU",
+			"EWIEGA46WW/moc_differentiable.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/grad.h",
+			"MU",
+			"EWIEGA46WW/moc_grad.cpp",
+			null
+		],
+		[
 			"C:/Users/User/Desktop/autodiff/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/model.h",
+			"MU",
+			"EWIEGA46WW/moc_model.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/multiplemutex.h",
+			"MU",
+			"EWIEGA46WW/moc_multiplemutex.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/optimizer.h",
+			"MU",
+			"EWIEGA46WW/moc_optimizer.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/parameter.h",
+			"MU",
+			"EWIEGA46WW/moc_parameter.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/stackprocessor.h",
+			"MU",
+			"EWIEGA46WW/moc_stackprocessor.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/autodiff/view.h",
+			"MU",
+			"EWIEGA46WW/moc_view.cpp",
 			null
 		]
 	],
@@ -403,8 +457,14 @@
 	"SETTINGS_FILE" : "C:/Users/User/Desktop/autodiff/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/autodiff_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/User/Desktop/autodiff/controller.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/autodiff/differentiable.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/autodiff/main.cpp", "MU", null ],
-		[ "C:/Users/User/Desktop/autodiff/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/User/Desktop/autodiff/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/autodiff/model.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/autodiff/optimizer.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/autodiff/parameter.cpp", "MU", null ],
+		[ "C:/Users/User/Desktop/autodiff/view.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

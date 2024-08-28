@@ -1,0 +1,7 @@
+gmock_main_autogen/timestamp: \
+	C:/Users/User/Desktop/autodiff/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/User/Desktop/autodiff/googletest/googlemock/CMakeLists.txt \
+	C:/Users/User/Desktop/autodiff/googletest/googlemock/cmake/gmock.pc.in \
+	C:/Users/User/Desktop/autodiff/googletest/googlemock/cmake/gmock_main.pc.in \
+	C:/Users/User/Desktop/autodiff/googletest/googlemock/src/gmock_main.cc \
+	C:/Program\ Files/CMake/bin/cmake.exe

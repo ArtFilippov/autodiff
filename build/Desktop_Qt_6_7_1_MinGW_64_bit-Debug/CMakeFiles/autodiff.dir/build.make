@@ -120,11 +120,107 @@ CMakeFiles/autodiff.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/mainwindow.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\mainwindow.cpp -o CMakeFiles\autodiff.dir\mainwindow.cpp.s
 
+CMakeFiles/autodiff.dir/parameter.cpp.obj: CMakeFiles/autodiff.dir/flags.make
+CMakeFiles/autodiff.dir/parameter.cpp.obj: CMakeFiles/autodiff.dir/includes_CXX.rsp
+CMakeFiles/autodiff.dir/parameter.cpp.obj: C:/Users/User/Desktop/autodiff/parameter.cpp
+CMakeFiles/autodiff.dir/parameter.cpp.obj: CMakeFiles/autodiff.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/autodiff.dir/parameter.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autodiff.dir/parameter.cpp.obj -MF CMakeFiles\autodiff.dir\parameter.cpp.obj.d -o CMakeFiles\autodiff.dir\parameter.cpp.obj -c C:\Users\User\Desktop\autodiff\parameter.cpp
+
+CMakeFiles/autodiff.dir/parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/autodiff.dir/parameter.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\autodiff\parameter.cpp > CMakeFiles\autodiff.dir\parameter.cpp.i
+
+CMakeFiles/autodiff.dir/parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/parameter.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\parameter.cpp -o CMakeFiles\autodiff.dir\parameter.cpp.s
+
+CMakeFiles/autodiff.dir/differentiable.cpp.obj: CMakeFiles/autodiff.dir/flags.make
+CMakeFiles/autodiff.dir/differentiable.cpp.obj: CMakeFiles/autodiff.dir/includes_CXX.rsp
+CMakeFiles/autodiff.dir/differentiable.cpp.obj: C:/Users/User/Desktop/autodiff/differentiable.cpp
+CMakeFiles/autodiff.dir/differentiable.cpp.obj: CMakeFiles/autodiff.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/autodiff.dir/differentiable.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autodiff.dir/differentiable.cpp.obj -MF CMakeFiles\autodiff.dir\differentiable.cpp.obj.d -o CMakeFiles\autodiff.dir\differentiable.cpp.obj -c C:\Users\User\Desktop\autodiff\differentiable.cpp
+
+CMakeFiles/autodiff.dir/differentiable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/autodiff.dir/differentiable.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\autodiff\differentiable.cpp > CMakeFiles\autodiff.dir\differentiable.cpp.i
+
+CMakeFiles/autodiff.dir/differentiable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/differentiable.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\differentiable.cpp -o CMakeFiles\autodiff.dir\differentiable.cpp.s
+
+CMakeFiles/autodiff.dir/optimizer.cpp.obj: CMakeFiles/autodiff.dir/flags.make
+CMakeFiles/autodiff.dir/optimizer.cpp.obj: CMakeFiles/autodiff.dir/includes_CXX.rsp
+CMakeFiles/autodiff.dir/optimizer.cpp.obj: C:/Users/User/Desktop/autodiff/optimizer.cpp
+CMakeFiles/autodiff.dir/optimizer.cpp.obj: CMakeFiles/autodiff.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/autodiff.dir/optimizer.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autodiff.dir/optimizer.cpp.obj -MF CMakeFiles\autodiff.dir\optimizer.cpp.obj.d -o CMakeFiles\autodiff.dir\optimizer.cpp.obj -c C:\Users\User\Desktop\autodiff\optimizer.cpp
+
+CMakeFiles/autodiff.dir/optimizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/autodiff.dir/optimizer.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\autodiff\optimizer.cpp > CMakeFiles\autodiff.dir\optimizer.cpp.i
+
+CMakeFiles/autodiff.dir/optimizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/optimizer.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\optimizer.cpp -o CMakeFiles\autodiff.dir\optimizer.cpp.s
+
+CMakeFiles/autodiff.dir/model.cpp.obj: CMakeFiles/autodiff.dir/flags.make
+CMakeFiles/autodiff.dir/model.cpp.obj: CMakeFiles/autodiff.dir/includes_CXX.rsp
+CMakeFiles/autodiff.dir/model.cpp.obj: C:/Users/User/Desktop/autodiff/model.cpp
+CMakeFiles/autodiff.dir/model.cpp.obj: CMakeFiles/autodiff.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/autodiff.dir/model.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autodiff.dir/model.cpp.obj -MF CMakeFiles\autodiff.dir\model.cpp.obj.d -o CMakeFiles\autodiff.dir\model.cpp.obj -c C:\Users\User\Desktop\autodiff\model.cpp
+
+CMakeFiles/autodiff.dir/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/autodiff.dir/model.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\autodiff\model.cpp > CMakeFiles\autodiff.dir\model.cpp.i
+
+CMakeFiles/autodiff.dir/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/model.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\model.cpp -o CMakeFiles\autodiff.dir\model.cpp.s
+
+CMakeFiles/autodiff.dir/view.cpp.obj: CMakeFiles/autodiff.dir/flags.make
+CMakeFiles/autodiff.dir/view.cpp.obj: CMakeFiles/autodiff.dir/includes_CXX.rsp
+CMakeFiles/autodiff.dir/view.cpp.obj: C:/Users/User/Desktop/autodiff/view.cpp
+CMakeFiles/autodiff.dir/view.cpp.obj: CMakeFiles/autodiff.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/autodiff.dir/view.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autodiff.dir/view.cpp.obj -MF CMakeFiles\autodiff.dir\view.cpp.obj.d -o CMakeFiles\autodiff.dir\view.cpp.obj -c C:\Users\User\Desktop\autodiff\view.cpp
+
+CMakeFiles/autodiff.dir/view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/autodiff.dir/view.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\autodiff\view.cpp > CMakeFiles\autodiff.dir\view.cpp.i
+
+CMakeFiles/autodiff.dir/view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/view.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\view.cpp -o CMakeFiles\autodiff.dir\view.cpp.s
+
+CMakeFiles/autodiff.dir/controller.cpp.obj: CMakeFiles/autodiff.dir/flags.make
+CMakeFiles/autodiff.dir/controller.cpp.obj: CMakeFiles/autodiff.dir/includes_CXX.rsp
+CMakeFiles/autodiff.dir/controller.cpp.obj: C:/Users/User/Desktop/autodiff/controller.cpp
+CMakeFiles/autodiff.dir/controller.cpp.obj: CMakeFiles/autodiff.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/autodiff.dir/controller.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autodiff.dir/controller.cpp.obj -MF CMakeFiles\autodiff.dir\controller.cpp.obj.d -o CMakeFiles\autodiff.dir\controller.cpp.obj -c C:\Users\User\Desktop\autodiff\controller.cpp
+
+CMakeFiles/autodiff.dir/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/autodiff.dir/controller.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\autodiff\controller.cpp > CMakeFiles\autodiff.dir\controller.cpp.i
+
+CMakeFiles/autodiff.dir/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/autodiff.dir/controller.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\autodiff\controller.cpp -o CMakeFiles\autodiff.dir\controller.cpp.s
+
 # Object files for target autodiff
 autodiff_OBJECTS = \
 "CMakeFiles/autodiff.dir/autodiff_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/autodiff.dir/main.cpp.obj" \
-"CMakeFiles/autodiff.dir/mainwindow.cpp.obj"
+"CMakeFiles/autodiff.dir/mainwindow.cpp.obj" \
+"CMakeFiles/autodiff.dir/parameter.cpp.obj" \
+"CMakeFiles/autodiff.dir/differentiable.cpp.obj" \
+"CMakeFiles/autodiff.dir/optimizer.cpp.obj" \
+"CMakeFiles/autodiff.dir/model.cpp.obj" \
+"CMakeFiles/autodiff.dir/view.cpp.obj" \
+"CMakeFiles/autodiff.dir/controller.cpp.obj"
 
 # External object files for target autodiff
 autodiff_EXTERNAL_OBJECTS =
@@ -132,6 +228,12 @@ autodiff_EXTERNAL_OBJECTS =
 autodiff.exe: CMakeFiles/autodiff.dir/autodiff_autogen/mocs_compilation.cpp.obj
 autodiff.exe: CMakeFiles/autodiff.dir/main.cpp.obj
 autodiff.exe: CMakeFiles/autodiff.dir/mainwindow.cpp.obj
+autodiff.exe: CMakeFiles/autodiff.dir/parameter.cpp.obj
+autodiff.exe: CMakeFiles/autodiff.dir/differentiable.cpp.obj
+autodiff.exe: CMakeFiles/autodiff.dir/optimizer.cpp.obj
+autodiff.exe: CMakeFiles/autodiff.dir/model.cpp.obj
+autodiff.exe: CMakeFiles/autodiff.dir/view.cpp.obj
+autodiff.exe: CMakeFiles/autodiff.dir/controller.cpp.obj
 autodiff.exe: CMakeFiles/autodiff.dir/build.make
 autodiff.exe: C:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a
 autodiff.exe: C:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a
@@ -140,7 +242,7 @@ autodiff.exe: C:/Qt/6.7.1/mingw_64/lib/libQt6EntryPoint.a
 autodiff.exe: CMakeFiles/autodiff.dir/linkLibs.rsp
 autodiff.exe: CMakeFiles/autodiff.dir/objects1.rsp
 autodiff.exe: CMakeFiles/autodiff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable autodiff.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\User\Desktop\autodiff\build\Desktop_Qt_6_7_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable autodiff.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\autodiff.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

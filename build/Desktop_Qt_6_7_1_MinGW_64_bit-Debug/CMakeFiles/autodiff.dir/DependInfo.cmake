@@ -10,8 +10,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "autodiff_autogen/timestamp" "custom" "autodiff_autogen/deps"
   "C:/Users/User/Desktop/autodiff/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/autodiff_autogen/mocs_compilation.cpp" "CMakeFiles/autodiff.dir/autodiff_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/autodiff_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/User/Desktop/autodiff/controller.cpp" "CMakeFiles/autodiff.dir/controller.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/controller.cpp.obj.d"
+  "C:/Users/User/Desktop/autodiff/differentiable.cpp" "CMakeFiles/autodiff.dir/differentiable.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/differentiable.cpp.obj.d"
   "C:/Users/User/Desktop/autodiff/main.cpp" "CMakeFiles/autodiff.dir/main.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/main.cpp.obj.d"
   "C:/Users/User/Desktop/autodiff/mainwindow.cpp" "CMakeFiles/autodiff.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/mainwindow.cpp.obj.d"
+  "C:/Users/User/Desktop/autodiff/model.cpp" "CMakeFiles/autodiff.dir/model.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/model.cpp.obj.d"
+  "C:/Users/User/Desktop/autodiff/optimizer.cpp" "CMakeFiles/autodiff.dir/optimizer.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/optimizer.cpp.obj.d"
+  "C:/Users/User/Desktop/autodiff/parameter.cpp" "CMakeFiles/autodiff.dir/parameter.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/parameter.cpp.obj.d"
+  "C:/Users/User/Desktop/autodiff/view.cpp" "CMakeFiles/autodiff.dir/view.cpp.obj" "gcc" "CMakeFiles/autodiff.dir/view.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -86,7 +86,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"gmock\" \"gtest\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -199,6 +199,162 @@ autodiff_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff_autogen.dir\build.make CMakeFiles/autodiff_autogen.dir/build
 .PHONY : autodiff_autogen/fast
 
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen_timestamp_deps
+
+# Build rule for target.
+gmock_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_autogen_timestamp_deps
+.PHONY : gmock_autogen_timestamp_deps
+
+# fast build rule for target.
+gmock_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_autogen_timestamp_deps.dir\build.make googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps.dir/build
+.PHONY : gmock_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen
+
+# Build rule for target.
+gmock_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_autogen
+.PHONY : gmock_autogen
+
+# fast build rule for target.
+gmock_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_autogen.dir\build.make googletest/googlemock/CMakeFiles/gmock_autogen.dir/build
+.PHONY : gmock_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen_timestamp_deps
+
+# Build rule for target.
+gmock_main_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main_autogen_timestamp_deps
+.PHONY : gmock_main_autogen_timestamp_deps
+
+# fast build rule for target.
+gmock_main_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main_autogen_timestamp_deps.dir\build.make googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps.dir/build
+.PHONY : gmock_main_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen
+
+# Build rule for target.
+gmock_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main_autogen
+.PHONY : gmock_main_autogen
+
+# fast build rule for target.
+gmock_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main_autogen.dir\build.make googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/build
+.PHONY : gmock_main_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen_timestamp_deps
+
+# Build rule for target.
+gtest_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_autogen_timestamp_deps
+.PHONY : gtest_autogen_timestamp_deps
+
+# fast build rule for target.
+gtest_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_autogen_timestamp_deps.dir\build.make googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps.dir/build
+.PHONY : gtest_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen
+
+# Build rule for target.
+gtest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_autogen
+.PHONY : gtest_autogen
+
+# fast build rule for target.
+gtest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_autogen.dir\build.make googletest/googletest/CMakeFiles/gtest_autogen.dir/build
+.PHONY : gtest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen_timestamp_deps
+
+# Build rule for target.
+gtest_main_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main_autogen_timestamp_deps
+.PHONY : gtest_main_autogen_timestamp_deps
+
+# fast build rule for target.
+gtest_main_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main_autogen_timestamp_deps.dir\build.make googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps.dir/build
+.PHONY : gtest_main_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen
+
+# Build rule for target.
+gtest_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main_autogen
+.PHONY : gtest_main_autogen
+
+# fast build rule for target.
+gtest_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main_autogen.dir\build.make googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build
+.PHONY : gtest_main_autogen/fast
+
 autodiff_autogen/mocs_compilation.obj: autodiff_autogen/mocs_compilation.cpp.obj
 .PHONY : autodiff_autogen/mocs_compilation.obj
 
@@ -222,6 +378,54 @@ autodiff_autogen/mocs_compilation.s: autodiff_autogen/mocs_compilation.cpp.s
 autodiff_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/autodiff_autogen/mocs_compilation.cpp.s
 .PHONY : autodiff_autogen/mocs_compilation.cpp.s
+
+controller.obj: controller.cpp.obj
+.PHONY : controller.obj
+
+# target to build an object file
+controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/controller.cpp.obj
+.PHONY : controller.cpp.obj
+
+controller.i: controller.cpp.i
+.PHONY : controller.i
+
+# target to preprocess a source file
+controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/controller.cpp.i
+.PHONY : controller.cpp.i
+
+controller.s: controller.cpp.s
+.PHONY : controller.s
+
+# target to generate assembly for a file
+controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/controller.cpp.s
+.PHONY : controller.cpp.s
+
+differentiable.obj: differentiable.cpp.obj
+.PHONY : differentiable.obj
+
+# target to build an object file
+differentiable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/differentiable.cpp.obj
+.PHONY : differentiable.cpp.obj
+
+differentiable.i: differentiable.cpp.i
+.PHONY : differentiable.i
+
+# target to preprocess a source file
+differentiable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/differentiable.cpp.i
+.PHONY : differentiable.cpp.i
+
+differentiable.s: differentiable.cpp.s
+.PHONY : differentiable.s
+
+# target to generate assembly for a file
+differentiable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/differentiable.cpp.s
+.PHONY : differentiable.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -271,6 +475,102 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+model.obj: model.cpp.obj
+.PHONY : model.obj
+
+# target to build an object file
+model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/model.cpp.obj
+.PHONY : model.cpp.obj
+
+model.i: model.cpp.i
+.PHONY : model.i
+
+# target to preprocess a source file
+model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/model.cpp.i
+.PHONY : model.cpp.i
+
+model.s: model.cpp.s
+.PHONY : model.s
+
+# target to generate assembly for a file
+model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/model.cpp.s
+.PHONY : model.cpp.s
+
+optimizer.obj: optimizer.cpp.obj
+.PHONY : optimizer.obj
+
+# target to build an object file
+optimizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/optimizer.cpp.obj
+.PHONY : optimizer.cpp.obj
+
+optimizer.i: optimizer.cpp.i
+.PHONY : optimizer.i
+
+# target to preprocess a source file
+optimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/optimizer.cpp.i
+.PHONY : optimizer.cpp.i
+
+optimizer.s: optimizer.cpp.s
+.PHONY : optimizer.s
+
+# target to generate assembly for a file
+optimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/optimizer.cpp.s
+.PHONY : optimizer.cpp.s
+
+parameter.obj: parameter.cpp.obj
+.PHONY : parameter.obj
+
+# target to build an object file
+parameter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/parameter.cpp.obj
+.PHONY : parameter.cpp.obj
+
+parameter.i: parameter.cpp.i
+.PHONY : parameter.i
+
+# target to preprocess a source file
+parameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/parameter.cpp.i
+.PHONY : parameter.cpp.i
+
+parameter.s: parameter.cpp.s
+.PHONY : parameter.s
+
+# target to generate assembly for a file
+parameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/parameter.cpp.s
+.PHONY : parameter.cpp.s
+
+view.obj: view.cpp.obj
+.PHONY : view.obj
+
+# target to build an object file
+view.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/view.cpp.obj
+.PHONY : view.cpp.obj
+
+view.i: view.cpp.i
+.PHONY : view.i
+
+# target to preprocess a source file
+view.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/view.cpp.i
+.PHONY : view.cpp.i
+
+view.s: view.cpp.s
+.PHONY : view.s
+
+# target to generate assembly for a file
+view.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\autodiff.dir\build.make CMakeFiles/autodiff.dir/view.cpp.s
+.PHONY : view.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -285,16 +585,46 @@ help:
 	@echo ... rebuild_cache
 	@echo ... autodiff_autogen
 	@echo ... autodiff_autogen_timestamp_deps
+	@echo ... gmock_autogen
+	@echo ... gmock_autogen_timestamp_deps
+	@echo ... gmock_main_autogen
+	@echo ... gmock_main_autogen_timestamp_deps
+	@echo ... gtest_autogen
+	@echo ... gtest_autogen_timestamp_deps
+	@echo ... gtest_main_autogen
+	@echo ... gtest_main_autogen_timestamp_deps
 	@echo ... autodiff
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... autodiff_autogen/mocs_compilation.obj
 	@echo ... autodiff_autogen/mocs_compilation.i
 	@echo ... autodiff_autogen/mocs_compilation.s
+	@echo ... controller.obj
+	@echo ... controller.i
+	@echo ... controller.s
+	@echo ... differentiable.obj
+	@echo ... differentiable.i
+	@echo ... differentiable.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... model.obj
+	@echo ... model.i
+	@echo ... model.s
+	@echo ... optimizer.obj
+	@echo ... optimizer.i
+	@echo ... optimizer.s
+	@echo ... parameter.obj
+	@echo ... parameter.i
+	@echo ... parameter.s
+	@echo ... view.obj
+	@echo ... view.i
+	@echo ... view.s
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+-I"C:/Users/User/Desktop/autodiff/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/googletest/googlemock/gmock_autogen/include" -IC:/Users/User/Desktop/autodiff/googletest/googlemock/include -IC:/Users/User/Desktop/autodiff/googletest/googlemock -isystem C:/Users/User/Desktop/autodiff/googletest/googletest/include -isystem C:/Users/User/Desktop/autodiff/googletest/googletest
