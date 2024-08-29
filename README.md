@@ -21,7 +21,11 @@ Included with the autodiff module is a Qt-based application that demonstrates th
 
 ## Getting Started
 
-To get started with autodiff and the Qt demonstration application, clone the repository and follow the setup instructions provided in the documentation. The library is designed for easy integration, and the demo application offers a straightforward example of how to leverage autodiff in your projects.
+To get started with autodiff, clone the repository (use the --recurse-submodules option to clone the GTest library) and follow the examples from the file test.cpp. 
+
+```c++
+
+```
 
 ## Contributing
 
