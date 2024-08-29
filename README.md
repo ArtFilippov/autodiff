@@ -32,9 +32,34 @@ class MyFunction : public Var
 public:
     MyFunction(std::shared_ptr<Differentiable> arg1, std::shared_ptr<Differentiable> arg2);
 
-
+    void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
+    double operator()() override;
 };
 ```
+Redefine get_all_parameters as follows:
+```c++
+void MyFunction::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters)
+{
+    arg1->get_all_parameters(parameters);
+    arg2->get_all_parameters(parameters);
+}
+```
+And operator():
+```c++
+double MyFunction::operator()()
+{
+    arg1->operator()();
+    arg2->operator()();
+
+    value_ = Function(arg1->get_value(), arg2->get_value()); // the value of the double type function
+    derivative_ = dFunction(arg1, arg2); // full differential Function(arg1, arg2), express as a double type using arg->get_value() and arg->get_derivative()
+
+    parameter_->set_value(value_);
+
+    return value_;
+}
+```
+
 
 ## Contributing
 
