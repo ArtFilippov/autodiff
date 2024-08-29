@@ -60,10 +60,6 @@ std::shared_ptr<Differentiable> d_pow(std::shared_ptr<Differentiable> a, std::sh
 //Const
 Const::Const(double c) : Differentiable(c) {}
 
-void Const::get_equation(std::string &eq)
-{
-    eq += std::to_string(value_);
-}
 
 MultipleMutexGuard Const::lock_all_mutaxes()
 {
@@ -98,10 +94,6 @@ void Var::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     parameters.push_back(parameter_);
 }
 
-void Var::get_equation(std::string &eq)
-{
-    eq += parameter_->get_name();
-}
 
 MultipleMutexGuard Var::lock_all_mutaxes()
 {
@@ -164,16 +156,7 @@ void Pow::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     n_->get_all_parameters(parameters);
 }
 
-void Pow::get_equation(std::string &eq)
-{
-    eq += "(";
-    x_->get_equation(eq);
-    eq += ")";
-    Var::get_equation(eq);
-    eq += "(";
-    n_->get_equation(eq);
-    eq += ")";
-}
+
 double Pow::operator()()
 {
     x_->operator()();
@@ -201,12 +184,7 @@ void Plus::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameter
     y_->get_all_parameters(parameters);
 }
 
-void Plus::get_equation(std::string &eq)
-{
-    x_->get_equation(eq);
-    Var::get_equation(eq);
-    y_->get_equation(eq);
-}
+
 double Plus::operator()()
 {
     x_->operator()();
@@ -234,12 +212,7 @@ void Sub::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     y_->get_all_parameters(parameters);
 }
 
-void Sub::get_equation(std::string &eq)
-{
-    x_->get_equation(eq);
-    Var::get_equation(eq);
-    y_->get_equation(eq);
-}
+
 double Sub::operator()()
 {
     x_->operator()();
@@ -267,16 +240,7 @@ void Mul::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     y_->get_all_parameters(parameters);
 }
 
-void Mul::get_equation(std::string &eq)
-{
-    eq += "(";
-    x_->get_equation(eq);
-    eq += ")";
-    Var::get_equation(eq);
-    eq += "(";
-    y_->get_equation(eq);
-    eq += ")";
-}
+
 double Mul::operator()()
 {
     x_->operator()();
@@ -304,16 +268,7 @@ void Dev::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     y_->get_all_parameters(parameters);
 }
 
-void Dev::get_equation(std::string &eq)
-{
-    eq += "(";
-    x_->get_equation(eq);
-    eq += ")";
-    Var::get_equation(eq);
-    eq += "(";
-    y_->get_equation(eq);
-    eq += ")";
-}
+
 double Dev::operator()()
 {
     x_->operator()();
@@ -340,14 +295,7 @@ void Cos::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     x_->get_all_parameters(parameters);
 }
 
-void Cos::get_equation(std::string &eq)
-{
 
-    Var::get_equation(eq);
-    eq += "(";
-    x_->get_equation(eq);
-    eq += ")";
-}
 double Cos::operator()()
 {
     x_->operator()();
@@ -373,14 +321,7 @@ void Sin::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     x_->get_all_parameters(parameters);
 }
 
-void Sin::get_equation(std::string &eq)
-{
 
-    Var::get_equation(eq);
-    eq += "(";
-    x_->get_equation(eq);
-    eq += ")";
-}
 double Sin::operator()()
 {
     x_->operator()();
@@ -406,13 +347,7 @@ void Neg::get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters
     x_->get_all_parameters(parameters);
 }
 
-void Neg::get_equation(std::string &eq)
-{
-    eq += "(";
-    Var::get_equation(eq);
-    x_->get_equation(eq);
-    eq += ")";
-}
+
 double Neg::operator()()
 {
     x_->operator()();

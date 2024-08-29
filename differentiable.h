@@ -25,7 +25,6 @@ public:
     double get_derivative();
 
     virtual void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) = 0;
-    virtual void get_equation(std::string &eq) = 0;
     virtual MultipleMutexGuard lock_all_mutaxes() = 0;
     virtual Grad<double> make_grad() = 0;
     virtual double operator()() = 0;
@@ -49,7 +48,6 @@ public:
     Const(double c);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override {/*Empty*/}
-    void get_equation(std::string &eq) override;
     MultipleMutexGuard lock_all_mutaxes() override;
     Grad<double> make_grad() override;
     double operator()() override;
@@ -64,7 +62,6 @@ public:
     Var(std::shared_ptr<Parameter> parameter);
 
     virtual void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    virtual void get_equation(std::string &eq) override;
     MultipleMutexGuard lock_all_mutaxes() override;
     Grad<double> make_grad() override;
     virtual double operator()() override;
@@ -81,7 +78,6 @@ public:
     Pow(std::shared_ptr<Differentiable> x, std::shared_ptr<Differentiable> n);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -93,7 +89,6 @@ public:
     Plus(std::shared_ptr<Differentiable> x, std::shared_ptr<Differentiable> y);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -105,7 +100,6 @@ public:
     Sub(std::shared_ptr<Differentiable> x, std::shared_ptr<Differentiable> y);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -117,7 +111,6 @@ public:
     Mul(std::shared_ptr<Differentiable> x, std::shared_ptr<Differentiable> y);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -129,7 +122,6 @@ public:
     Dev(std::shared_ptr<Differentiable> x, std::shared_ptr<Differentiable> y);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -140,7 +132,6 @@ public:
     Cos(std::shared_ptr<Differentiable> x);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -151,7 +142,6 @@ public:
     Sin(std::shared_ptr<Differentiable> x);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
@@ -162,7 +152,6 @@ public:
     Neg(std::shared_ptr<Differentiable> x);
 
     void get_all_parameters(std::vector<std::shared_ptr<Parameter>>& parameters) override;
-    void get_equation(std::string &eq) override;
     double operator()() override;
 };
 
