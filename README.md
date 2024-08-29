@@ -17,6 +17,8 @@ Automatic Differentiation (AD) is a computational technique for evaluating the d
 
 Included with the autodiff module is a Qt-based application that demonstrates the module's capabilities. This application allows users to input variable names and the right-hand side of equations (assuming the left-hand side is zero) and solves them using the gradient descent method. It serves as an excellent starting point for understanding how autodiff can be applied in real-world scenarios.
 
+![screenshot](Screenshot_1.png)
+
 ## Getting Started
 
 To get started with autodiff and the Qt demonstration application, clone the repository and follow the setup instructions provided in the documentation. The library is designed for easy integration, and the demo application offers a straightforward example of how to leverage autodiff in your projects.
