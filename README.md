@@ -27,4 +27,4 @@ Contributions to autodiff are welcome! Whether it's through submitting bug repor
 
 ## License
 
-autodiff is made available under the [MIT License](LICENSE), allowing for wide use, contribution, and distribution.
+autodiff is made available under the [MIT License](https://mit-license.org/), allowing for wide use, contribution, and distribution.
