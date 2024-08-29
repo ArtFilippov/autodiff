@@ -23,8 +23,17 @@ Included with the autodiff module is a Qt-based application that demonstrates th
 
 To get started with autodiff, clone the repository (use the --recurse-submodules option to clone the GTest library) and follow the examples from the file test.cpp. 
 
+To add a new function, you need to describe it as a class of the following type:
 ```c++
+class MyFunction : public Var
+{
+    std::shared_ptr<Differentiable> arg1;
+    std::shared_ptr<Differentiable> arg2;
+public:
+    MyFunction(std::shared_ptr<Differentiable> arg1, std::shared_ptr<Differentiable> arg2);
 
+
+};
 ```
 
 ## Contributing
